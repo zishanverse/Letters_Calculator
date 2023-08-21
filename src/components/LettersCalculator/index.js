@@ -17,7 +17,7 @@ const LettersCalculator = props => {
             Enter the phrase
           </label>
           <input
-            type="search"
+            type="text"
             className="input"
             onChange={countLetters}
             id="phrase"
